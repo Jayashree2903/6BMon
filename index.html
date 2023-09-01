@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <style>
+        body{
+            background-color: rgb(247, 242, 236);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .mon{
+            margin-top:20px;
+            background-color: white;
+            height:100%;
+            width:270px;
+            border:none;
+            border-radius: 10px;
+            padding:20px
+        }
+        .container{
+            display: block;
+            grid-template-columns: max-content;
+        }
+        button{
+            border:none;
+            border-radius: 5px;
+            background-color: black;
+            color:white;
+            padding: 5px;
+            margin: 2px;
+        }
+        @media only screen and (min-width:700px){
+            .mon{
+            margin-top:50px;    
+            background-color: white;
+            height:100%;
+            width:600px;
+            border:none;
+            border-radius: 15px;
+            padding:40px
+        }
+
+        }
+    </style>
+</head>
+<body></body><center>
+    <div class="mon">
+        <h1>CHOOSE UR BIRTH MONTH</h1>
+    <div class="container">
+        <button id="jan"  onclick="jan()">JANUARY</button><br>
+        <button id="feb"  onclick="feb()">FEBRUARY</button><br>
+        <button id="mar"  onclick="mar()">MARCH</button><br>
+        <button id="apr"  onclick="apr()">APRIL</button><br>
+        <button id="may"  onclick="may()">MAY</button><br>
+        <button id="jun"  onclick="jun()">JUNE</button><br>
+        <button id="jul"  onclick="jul()">JULY</button><br>
+        <button id="aug"  onclick="aug()">AUGUST</button><br>
+        <button id="sep"  onclick="sep()">SEPTEMBER</button><br>
+        <button id="oct"  onclick="oct()">OCTOBER</button><br>
+        <button id="nov"  onclick="nov()">NOVEMBER</button><br>
+        <button id="dec"  onclick="dec()">DECEMBER</button><br>
+    </div></div></center>
+    <script>
+        function jan(){
+        alert("You are often seen as ambitious and goal oriented, with a strong sense of responsibility");            
+        }
+        function feb(){
+        alert("You are tend to be creative,imaginative and have a compassionate nature");    
+        }
+        function mar(){
+        alert("You are Often considered enthusiastic and energetic, with a love adventure and exploration");    
+        }
+        function apr(){
+        alert("You are Known for your strong determination and independence");    
+        }
+        function may(){
+        alert("You are usually practical and reliable, with a down-to-earth approach to life");    
+        }
+        function jun(){
+        alert("You are often seen as sociable and communicative, with a love for building relationships");    
+        }
+        function jul(){
+        alert("You are Known for nurturing and caring nature, often putting family first");    
+        }
+        function aug(){
+        alert("You are typicalling confident and charismatic,with a strong sense of purpose");    
+        }
+        function sep(){
+        alert("You are analytical and detail-oriented,often excelling in problem solving");    
+        }
+        function oct(){
+        alert("You are Known for charm and diplomacy,great peacemakers");    
+        }
+        function nov(){
+        alert("You are tend to be determined and passionate,with a strong sense of purpose");    
+        }
+        function dec(){
+        alert("You have a cheerful and generous personality,embracing the holiday spirit");    
+        }
+    </script>
+</body>
+</html>
